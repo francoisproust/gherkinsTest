@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/addition.feature",
+        features = "src/test/resources/features/addition.feature",
         glue = {"src/test/java/fr/perso/StepDefinitions.java"})
 public class StepDefinitions {
 
